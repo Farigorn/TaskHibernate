@@ -10,6 +10,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
 public class UserDaoJDBCImpl implements UserDao {
     private Util util = Util.getUtil();
 
@@ -82,3 +83,4 @@ public class UserDaoJDBCImpl implements UserDao {
         }
     }
 }
+*/
