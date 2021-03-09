@@ -21,7 +21,7 @@ public class Util {
 
     private Util() {
         if (sessionFactory == null) {
-            Configuration configuration = null;
+            Configuration configuration;
             try {
                 configuration = new Configuration();
                 Properties settings = new Properties();
@@ -43,7 +43,6 @@ public class Util {
             }
         }
     }
-
 
     public static Util getUtil() {
         if (util == null) {

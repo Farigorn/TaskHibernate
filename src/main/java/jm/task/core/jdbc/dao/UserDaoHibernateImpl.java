@@ -13,13 +13,8 @@ public class UserDaoHibernateImpl implements UserDao {
     private final SessionFactory sessionFactory = Util.getUtil().getSessionFactory();
     private Transaction transaction;
 
-
-
-
     public UserDaoHibernateImpl() {
-
     }
-
 
     @Override
     public void createUsersTable() {
